@@ -1,0 +1,18 @@
+{
+  "juices": [
+    {
+      "name": "sebasd",
+      "taste": "asd",
+      "price": "45",
+      "image": "asdasd",
+      "id": 1
+    },
+    {
+      "name": "sebas",
+      "taste": "asdasd",
+      "price": "56",
+      "image": "asdasdsad",
+      "id": 2
+    }
+  ]
+}

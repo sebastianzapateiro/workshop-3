@@ -35,25 +35,21 @@
     </div>
     <div class="color-nav color-section">
         
-        <form >
+        <form class="formulario">
         <section id="first-sectiom" class="flex flex-col w-[50%] m-auto pt-[100px] items-center justify-between">
-        <input type="text" placeholder="Título" class="w-full mb-[30px] p-[20px] rounded-[10px]">
-        <input type="text" placeholder="Descripción" class="w-full mb-[30px] p-[20px] rounded-[10px]">
-        <input type="number" placeholder="Precio" class="w-full mb-[30px] p-[20px] rounded-[10px]">
-        <div class="section-b w-full flex-row flex gap-x-[20px] mb-[30px] " >
-            <input type="text" placeholder="URL de imagen" class="w-[50%] p-[20px] rounded-[10px]">
-            <select name="operacion" id="operacion-section" class="w-[50%] p-[20px] rounded-[10px]">
-                    <option value="agregar">Agregar</option>
-                    <option value="Eliminar">Eliminar</option>
-            </select>   
-            
-        </div>
+        <input id="title" type="text" placeholder="Título" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        <input  id="decription" type="text" placeholder="Descripción" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        <input id="precio" type="number" placeholder="Precio" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        <input  id="url" type="text" placeholder="URL Image" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        
         <button class="btn-f btn flex justify-center items-center">
-            ACEPTAR
+            AGREGAR
         </button>
 </form>
         </section>
     </div>
 
 </body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/script/script.js"></script>
 </html>
