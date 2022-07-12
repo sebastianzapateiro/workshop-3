@@ -1,25 +1,11 @@
 {
   "juices": [
     {
-    "id": 1,
-    "name": "Juice Brust",
-    "taste": "Orange 500ml",
-    "price": 2.5,
-    "image": "https://i.ibb.co/nDXNrYr/Juice-Brust-Orange.png"
-    },
-    {
       "id": 2,
       "name": "Juice Brust",
       "taste": "Pineapple 500ml",
       "price": 2.25,
       "image": "https://i.ibb.co/zHRB6MW/Juice-Brust-Pinapple.png"
-    },
-    {
-      "id": 3,
-      "name": "Juice Brust",
-      "taste": "Apple 500ml",
-      "price": 2.75,
-      "image": "https://i.ibb.co/dD68WkP/Juice-Brust-Apple.png"
     },
     {
       "id": 4,
@@ -41,7 +27,20 @@
       "taste": "Passion fruit 250ml",
       "price": 2.25,
       "image": "https://i.ibb.co/6t0Bvph/Coco-mac-Basil-Seed-Mango.png"
+    },
+    {
+      "name": "asd",
+      "taste": "asd",
+      "price": "234",
+      "image": "sdfsdf",
+      "id": 7
+    },
+    {
+      "name": "sebastian",
+      "taste": "zap",
+      "price": "34",
+      "image": "sddsfsdf",
+      "id": 8
     }
   ]
 }
-

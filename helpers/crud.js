@@ -18,7 +18,35 @@ const deletee = async( url ) => {
     };
 }
 
+
+
+const postElement = async (url,value,categorie) => {
+
+    Swal.fire({
+        title: "¿Seguro deseas agregar este elemento?",
+        icon: "question",
+        showCancelButton: true,
+        confirmButtonText: 'Sí, ¡Quiero agregarlo!'
+    }).then( async (result) => {
+        if (result.isConfirmed) {
+            try {
+                await fetch( `${url}/${categorie}`, {
+                    method: 'POST',
+                    body: JSON.stringify(value),
+                    headers: {
+                        "Content-Type": "application/json; charset=UTF-8"
+                    }
+                } );
+            } catch ( err ) {
+                console.log( err );
+            };
+        }
+    })
+};
+
+
 export {
     get,
-    deletee
+    deletee,
+    postElement
 }

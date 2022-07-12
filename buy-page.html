@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/stylesebastian.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="color-nav">
+        <nav id="nav-section" class="flex flex-row w-[77%] m-auto h-[70px] items-center justify-between		">
+            <div class="img-logo"></div>
+            <div class="options-nav flex flex-row gap-x-5">
+                    <div class="nav-info h-full">HOME</div>
+                    <div class="nav-info">PRODUCTS</div>
+                    <div class="nav-info">ABOUT AS</div>
+                    <div class="nav-info">CONTACT</div>
+            </div>
+            <div class="social-media flex flex-row items-center justify-between w-[153px]">
+
+                <div id="facebook" class="icon-nav"></div>
+                <div id="instagram" class="icon-nav"></div>
+                <div id="twitter" class="icon-nav"></div>
+
+            </div>
+
+            <div class="profile-buy flex gap-x-[60px] flex-row items-center justify-between">
+                    <div id="shop" class="icon-nav"></div>
+                    <div id="profile" class="icon-nav"></div>
+            </div>
+        </nav>    
+    </div>
+    <div class="color-nav color-section">
+        
+        <form class="formulario">
+        <section id="first-sectiom" class="flex flex-col w-[50%] m-auto pt-[100px] items-center justify-between">
+        <input id="title" type="text" placeholder="Título" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        <input  id="decription" type="text" placeholder="Descripción" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        <input id="precio" type="number" placeholder="Precio" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        <input  id="url" type="text" placeholder="URL Image" class="w-full mb-[30px] p-[20px] rounded-[10px]">
+        
+        <button class="btn-f btn flex justify-center items-center">
+            AGREGAR
+        </button>
+</form>
+        </section>
+    </div>
+
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/scripts/saveProduct.js" type="module"></script>
+</html>
