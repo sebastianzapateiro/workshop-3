@@ -22,7 +22,7 @@
             <a class="place-self-end underline decoration-2" href="#_">SEE ALL</a>
         </div>
 
-        <div class="grid justify-center item-center grid-cols-3 ">
+        <div id="card" class="relative overflow-y-hidden auto-rows-auto grid justify-center item-center grid-cols-3 grid-row-3">
             <div class=" gap-2 flex flex-col justifi-center mx-10">
                 <img class="w-24 h-48 self-center" src="/assets/imgsJuice/Juice Brust(Orange).png" alt="juices">
                 <div class="mx-5 flex flex-col">
@@ -33,9 +33,61 @@
                     <label class="flex font-semibold">$ <h2>2.50</h2></label>
                     <button class="underline decoration-2 text-[#FF7E20] font-bold">Add to cart</button>
                 </div>
+                
             </div>
+        </div>
+        <div class="flex justify-center item-center">
+            <button class="bg-[#FF7E20] h-16 w-36 rounded-lg">
+                <h1 class="font-bold text-xl">SEE ALL</h1>
+            </button>
+        </div>
+    </section>
+
+    <template id="template">
+        <div class=" gap-2 flex flex-col justifi-center mx-10">
+            <img class="w-24 h-48 self-center" src="/assets/imgsJuice/Juice Brust(Orange).png" alt="juices">
+            <div class="mx-5 flex flex-col">
+                <h2 class=" text-[#333232]">Juice Brust</h2>
+                <p class="text-xs">Orange 500ml</p>
+            </div>
+            <div class="mx-5 flex gap-4 justify-between">
+                <label class="flex font-semibold">$ <h2>2.50</h2></label>
+                <button class="underline decoration-2 text-[#FF7E20] font-bold">Add to cart</button>
+            </div>
+        </div>
+    </template>
+    <section class="relative flex bg-[#ff7e2014] mt-24 w-screen">
+        <div class="flex flex-col justify-center ml-36 gap-10">
+            <h1 class="text-4xl font-bold">BUY 1, GET 1 FREE</h1>
+            <p class="text-sm text-[#333232]">Enjoy buy 1 get 1 free on all Sparkling drinks. When it's a matter of customer service we make sure no one is better than us. Offer you great discounts in all good of Sparkling drinks.</p>
+            <button class="bg-[#FF7E20] h-16 w-36 rounded-lg">
+                <h1 class="font-bold text-xl">BUY NOW</h1>
+            </button>
+        </div>
+        <img class="w-1/2" src="/assets/bg/img1.png" alt="img">
+    </section>
+
+    <!-- script tailwind -->
+    <script src="/styles/felipe.js"></script>
+    <script src="/scripts/main.js" type="module"></script>
+</body>
+</html>
+
+
+
+<!-- <div class=" gap-2 flex flex-col justifi-center mx-10">
+                <img class="w-24 h-48 self-center" src="/assets/imgsJuice/Juice Brust(Orange).png" alt="juices">
+                <div class="mx-5 flex flex-col">
+                    <h2 class=" text-[#333232]">Juice Brust</h2>
+                    <p class="text-xs">Orange 500ml</p>
+                </div>
+                <div class="mx-5 flex gap-4 justify-between">
+                    <label class="flex font-semibold">$ <h2>2.50</h2></label>
+                    <button class="underline decoration-2 text-[#FF7E20] font-bold">Add to cart</button>
+                </div>
+            </div> -->
             
-            <div class=" gap-2 flex flex-col justifi-center mx-10 ">
+            <!-- <div class=" gap-2 flex flex-col justifi-center mx-10 ">
                 <img class="w-24 h-48 self-center" src="/assets/imgsJuice/Juice Brust(Pinapple).png" alt="juices">
                 <div class="mx-5 flex flex-col">
                     <h2 class=" text-[#333232]">Juice Brust</h2>
@@ -93,26 +145,4 @@
                     <label class="flex font-semibold">$ <h2>2.50</h2></label>
                     <button class="underline decoration-2 text-[#FF7E20] font-bold">Add to cart</button>
                 </div>
-            </div>
-        </div>
-        <div class="flex justify-center item-center">
-            <button class="bg-[#FF7E20] h-16 w-36 rounded-lg">
-                <h1 class="font-bold text-xl">SEE ALL</h1>
-            </button>
-        </div>
-    </section>
-    <section class="relative flex bg-[#ff7e2014] mt-24 w-screen">
-        <div class="flex flex-col justify-center ml-36 gap-10">
-            <h1 class="text-4xl font-bold">BUY 1, GET 1 FREE</h1>
-            <p class="text-sm text-[#333232]">Enjoy buy 1 get 1 free on all Sparkling drinks. When it's a matter of customer service we make sure no one is better than us. Offer you great discounts in all good of Sparkling drinks.</p>
-            <button class="bg-[#FF7E20] h-16 w-36 rounded-lg">
-                <h1 class="font-bold text-xl">BUY NOW</h1>
-            </button>
-        </div>
-        <img class="w-1/2" src="/assets/bg/img1.png" alt="img">
-    </section>
-
-    <!-- script tailwind -->
-    <script src="/styles/felipe.js"></script>
-</body>
-</html>
+            </div> -->
