@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Serif:opsz,wght@8..144,300&family=Vast+Shadow&display=swap');
+
+footer {
+    background-color: rgba(255, 126, 32, 0.06);
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titles{
+    display: flex;
+    
+}
+
+.parrafo{
+    display: flex;
+}
+
+.footer-base{
+    display: flex;
+}
+
