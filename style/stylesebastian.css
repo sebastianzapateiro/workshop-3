@@ -1,0 +1,96 @@
+#nav-section{
+    background-color: rgba(255, 126, 32, 0.08) ;
+}
+
+.img-logo{
+    background-image: url("/img/logo.svg");
+    width: 140px;
+    height: 57px;
+}
+
+#facebook{
+    background-image: url("/img/facebook.svg");
+}
+
+#instagram{
+    background-image: url("/img/instagram.svg");
+}
+
+#twitter{
+    background-image: url("/img/twiter.svg");
+}
+
+
+#shop{
+    background-image: url("/img/shop.svg");
+}
+
+
+#profile{
+    background-image: url("/img/profile.svg");
+}
+
+.icon-nav{
+    width: 18px;
+    height: 18px;
+}
+
+
+.title-first-section{
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 70px;
+letter-spacing: 0.04em;
+color: #060922;
+
+}
+
+.subtitle-first-section{
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #333232;
+}
+
+.btn{    
+width: 170px;
+height: 61px;
+background: #FF7E20;
+border-radius: 10px;
+
+}
+
+.fruits{
+    background-image: url("/img/fruits.svg");
+    width: 559px;
+    height: 535px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fruit-s{
+    background-image: url("/img/imgf.svg");
+    width: 437px;
+    height: 466px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.read-more{
+text-decoration: underline;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #FF7E20;
+
+}
