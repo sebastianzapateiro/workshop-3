@@ -9,7 +9,16 @@ async function get( url ) {
     }
 }
 
+const deletee = async( url ) => {
+    try {
+        await fetch( url , { method: "DELETE" } );
+    } catch ( err ) {
+        alert( "Servidor no responde, intente mas tarde" );
+        console.log( err );
+    };
+}
 
 export {
-    get
+    get,
+    deletee
 }

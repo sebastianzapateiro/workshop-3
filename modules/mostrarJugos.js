@@ -15,6 +15,9 @@ export function mostrar (data,template,card){
                 <label class="flex font-semibold">$ <h2 id="h2${id}">${price}</h2></label>
                 <button class="underline decoration-2 text-[#FF7E20] font-bold">Add to cart</button>
             </div>
+            <button class="btnBorrar h-10 bg-[#FF7E20] w-24 place-self-center rounded-lg">
+                    <h1 id="${id}" class=" btnBorrar font-semibold text-lg">BORRAR</h1>
+            </button>
         </div>
         `;
 

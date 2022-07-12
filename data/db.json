@@ -1,46 +1,47 @@
 {
-    "juices":[
-        {
-            "id": 1,
-            "name":"Juice Brust",
-            "taste":"Orange 500ml",
-            "price":2.50,
-            "image":"https://i.ibb.co/nDXNrYr/Juice-Brust-Orange.png"
-        },
-        {
-            "id": 2,
-            "name":"Juice Brust",
-            "taste":"Pineapple 500ml",
-            "price":2.25,
-            "image":"https://i.ibb.co/zHRB6MW/Juice-Brust-Pinapple.png"
-        },
-        {
-            "id": 3,
-            "name":"Juice Brust",
-            "taste":"Apple 500ml",
-            "price":2.75,
-            "image":"https://i.ibb.co/dD68WkP/Juice-Brust-Apple.png"
-        },{
-            "id": 4,
-            "name":"COCO mac Basil Seed",
-            "taste":"Pineapple 250ml",
-            "price":1.50,
-            "image":"https://i.ibb.co/345KWn9/Coco-mac-Basil-Seed-Pineapple.png"
-        },
-        {
-            "id": 5,
-            "name":"COCO mac Basil Seed",
-            "taste":"Mango 250ml",
-            "price":1.25,
-            "image":"https://i.ibb.co/8mP5jpX/Coco-mac-Basil-Seed-Pasion-Fruit.png"
-        },
-        {
-            "id": 6,
-            "name":"COCO mac Basil Seed",
-            "taste":"Passion fruit 250ml",
-            "price":2.25,
-            "image":"https://i.ibb.co/6t0Bvph/Coco-mac-Basil-Seed-Mango.png"
-        }
-    ]
+  "juices": [
+    {
+    "id": 1,
+    "name": "Juice Brust",
+    "taste": "Orange 500ml",
+    "price": 2.5,
+    "image": "https://i.ibb.co/nDXNrYr/Juice-Brust-Orange.png"
+    },
+    {
+      "id": 2,
+      "name": "Juice Brust",
+      "taste": "Pineapple 500ml",
+      "price": 2.25,
+      "image": "https://i.ibb.co/zHRB6MW/Juice-Brust-Pinapple.png"
+    },
+    {
+      "id": 3,
+      "name": "Juice Brust",
+      "taste": "Apple 500ml",
+      "price": 2.75,
+      "image": "https://i.ibb.co/dD68WkP/Juice-Brust-Apple.png"
+    },
+    {
+      "id": 4,
+      "name": "COCO mac Basil Seed",
+      "taste": "Pineapple 250ml",
+      "price": 1.5,
+      "image": "https://i.ibb.co/345KWn9/Coco-mac-Basil-Seed-Pineapple.png"
+    },
+    {
+      "id": 5,
+      "name": "COCO mac Basil Seed",
+      "taste": "Mango 250ml",
+      "price": 1.25,
+      "image": "https://i.ibb.co/8mP5jpX/Coco-mac-Basil-Seed-Pasion-Fruit.png"
+    },
+    {
+      "id": 6,
+      "name": "COCO mac Basil Seed",
+      "taste": "Passion fruit 250ml",
+      "price": 2.25,
+      "image": "https://i.ibb.co/6t0Bvph/Coco-mac-Basil-Seed-Mango.png"
+    }
+  ]
 }
 
