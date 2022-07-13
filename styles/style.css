@@ -13,9 +13,32 @@ footer {
 
 .parrafo{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 .footer-base{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+
+footer{
+    width: 100%;
+}
+
+.parrafo1 div{
+    display:flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.st{
+    width: 124px;
+}
+
+p{
+    text-align: left;
+}
