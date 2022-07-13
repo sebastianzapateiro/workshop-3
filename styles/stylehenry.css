@@ -1,0 +1,37 @@
+footer {
+    
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer .titles{
+    display: flex;
+    
+}
+
+footer .parrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+footer .footer-base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+footer .parrafo1 div{
+    display:flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+footer .st{
+    width: 124px;
+    text-align: left;
+}
