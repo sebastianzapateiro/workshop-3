@@ -20,7 +20,7 @@ elemento.addEventListener("submit", e=>{
 
     console.log(u)
     
-    postElement("http://localhost:3000",u,"juices");
+    postElement("https://worshop3.herokuapp.com",u,"juices");
 
 })
 

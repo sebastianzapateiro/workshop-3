@@ -5,7 +5,7 @@ let template = document.querySelector("template").content;
 let card = document.querySelector("#card");
 let borrar = document.querySelectorAll(".btnBorrar");
 
-const url = "http://localhost:3000/juices";
+const url = "https://worshop3.herokuapp.com/juices";
 
 document.addEventListener("DOMContentLoaded", async()=> {
     const data = await get(url);
